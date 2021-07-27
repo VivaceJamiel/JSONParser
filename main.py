@@ -17,9 +17,6 @@ class CVE:
         self.description = description
         self.impact = impact
 
-    # def sortBySeverity(list):
-    #     if list.length() == 0:
-
 
 
 
@@ -46,9 +43,9 @@ newJson = json.dumps(cves, indent = 4)
 # print(newJson)
 
 # Words to search for in description
-substrings = ['XSS', 'xss', 'cross site scripting', 'cross-site scripting']
+substrings = ['XSS', 'xss', 'cross site scripting', 'cross-site scripting', 'sql injection', 'SQL injection']
 
-foundCVE = {}
+CVEDescriptions = {}
 fullCVE = {}
 CVEList = []
 
@@ -60,17 +57,17 @@ for i in cves:
 
     if any(word in description for word in substrings):
         temp = CVE(CVE_id, description, impact)
-        foundCVE[CVE_id] = description
+        CVEDescriptions[CVE_id] = description
         fullCVE[CVE_id] = i
         CVEList.append(temp)
         count = count + 1
     ind = ind + 1
 
-print("There are " + str(count) + " description(s) with xss in them")
+print("There are " + str(count) + " description(s) with key words in them")
 
 # Writes to file with 
 with open('foundCVEDescriptions', 'w', encoding="utf-8") as convert_file:
-    convert_file.write(json.dumps(foundCVE, indent=4))
+    convert_file.write(json.dumps(CVEDescriptions, indent=4))
 
 with open('foundCVEFull', 'w', encoding="utf-8") as convert_file:
     convert_file.write(json.dumps(fullCVE, indent=4))

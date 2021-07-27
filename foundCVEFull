@@ -300,6 +300,281 @@
         "publishedDate": "2021-07-26T20:15Z",
         "lastModifiedDate": "2021-07-27T00:30Z"
     },
+    "CVE-2021-37478": {
+        "cve": {
+            "data_type": "CVE",
+            "data_format": "MITRE",
+            "data_version": "4.0",
+            "CVE_data_meta": {
+                "ID": "CVE-2021-37478",
+                "ASSIGNER": "cve@mitre.org"
+            },
+            "problemtype": {
+                "problemtype_data": [
+                    {
+                        "description": []
+                    }
+                ]
+            },
+            "references": {
+                "reference_data": [
+                    {
+                        "url": "https://github.com/NavigateCMS/Navigate-CMS",
+                        "name": "https://github.com/NavigateCMS/Navigate-CMS",
+                        "refsource": "MISC",
+                        "tags": []
+                    },
+                    {
+                        "url": "https://github.com/NavigateCMS/Navigate-CMS/issues/26",
+                        "name": "https://github.com/NavigateCMS/Navigate-CMS/issues/26",
+                        "refsource": "MISC",
+                        "tags": []
+                    },
+                    {
+                        "url": "https://gist.github.com/victomteng1997/ed429fed7de46651c89f05e7591fd4fe",
+                        "name": "https://gist.github.com/victomteng1997/ed429fed7de46651c89f05e7591fd4fe",
+                        "refsource": "MISC",
+                        "tags": []
+                    }
+                ]
+            },
+            "description": {
+                "description_data": [
+                    {
+                        "lang": "en",
+                        "value": "In NavigateCMS version 2.9.4 and below, function `block` is vulnerable to sql injection on parameter `block-order`, which results in arbitrary sql query execution in the backend database."
+                    }
+                ]
+            }
+        },
+        "configurations": {
+            "CVE_data_version": "4.0",
+            "nodes": []
+        },
+        "impact": {},
+        "publishedDate": "2021-07-26T18:15Z",
+        "lastModifiedDate": "2021-07-26T18:50Z"
+    },
+    "CVE-2021-37477": {
+        "cve": {
+            "data_type": "CVE",
+            "data_format": "MITRE",
+            "data_version": "4.0",
+            "CVE_data_meta": {
+                "ID": "CVE-2021-37477",
+                "ASSIGNER": "cve@mitre.org"
+            },
+            "problemtype": {
+                "problemtype_data": [
+                    {
+                        "description": []
+                    }
+                ]
+            },
+            "references": {
+                "reference_data": [
+                    {
+                        "url": "https://github.com/NavigateCMS/Navigate-CMS",
+                        "name": "https://github.com/NavigateCMS/Navigate-CMS",
+                        "refsource": "MISC",
+                        "tags": []
+                    },
+                    {
+                        "url": "https://github.com/NavigateCMS/Navigate-CMS/issues/26",
+                        "name": "https://github.com/NavigateCMS/Navigate-CMS/issues/26",
+                        "refsource": "MISC",
+                        "tags": []
+                    },
+                    {
+                        "url": "https://gist.github.com/victomteng1997/ed429fed7de46651c89f05e7591fd4fe",
+                        "name": "https://gist.github.com/victomteng1997/ed429fed7de46651c89f05e7591fd4fe",
+                        "refsource": "MISC",
+                        "tags": []
+                    }
+                ]
+            },
+            "description": {
+                "description_data": [
+                    {
+                        "lang": "en",
+                        "value": "In NavigateCMS version 2.9.4 and below, function in `structure.php` is vulnerable to sql injection on parameter `children_order`, which results in arbitrary sql query execution in the backend database."
+                    }
+                ]
+            }
+        },
+        "configurations": {
+            "CVE_data_version": "4.0",
+            "nodes": []
+        },
+        "impact": {},
+        "publishedDate": "2021-07-26T18:15Z",
+        "lastModifiedDate": "2021-07-26T18:50Z"
+    },
+    "CVE-2021-37476": {
+        "cve": {
+            "data_type": "CVE",
+            "data_format": "MITRE",
+            "data_version": "4.0",
+            "CVE_data_meta": {
+                "ID": "CVE-2021-37476",
+                "ASSIGNER": "cve@mitre.org"
+            },
+            "problemtype": {
+                "problemtype_data": [
+                    {
+                        "description": []
+                    }
+                ]
+            },
+            "references": {
+                "reference_data": [
+                    {
+                        "url": "https://github.com/NavigateCMS/Navigate-CMS",
+                        "name": "https://github.com/NavigateCMS/Navigate-CMS",
+                        "refsource": "MISC",
+                        "tags": []
+                    },
+                    {
+                        "url": "https://github.com/NavigateCMS/Navigate-CMS/issues/26",
+                        "name": "https://github.com/NavigateCMS/Navigate-CMS/issues/26",
+                        "refsource": "MISC",
+                        "tags": []
+                    },
+                    {
+                        "url": "https://gist.github.com/victomteng1997/ed429fed7de46651c89f05e7591fd4fe",
+                        "name": "https://gist.github.com/victomteng1997/ed429fed7de46651c89f05e7591fd4fe",
+                        "refsource": "MISC",
+                        "tags": []
+                    }
+                ]
+            },
+            "description": {
+                "description_data": [
+                    {
+                        "lang": "en",
+                        "value": "In NavigateCMS version 2.9.4 and below, function in `product.php` is vulnerable to sql injection on parameter `id` through a post request, which results in arbitrary sql query execution in the backend database."
+                    }
+                ]
+            }
+        },
+        "configurations": {
+            "CVE_data_version": "4.0",
+            "nodes": []
+        },
+        "impact": {},
+        "publishedDate": "2021-07-26T18:15Z",
+        "lastModifiedDate": "2021-07-26T18:50Z"
+    },
+    "CVE-2021-37475": {
+        "cve": {
+            "data_type": "CVE",
+            "data_format": "MITRE",
+            "data_version": "4.0",
+            "CVE_data_meta": {
+                "ID": "CVE-2021-37475",
+                "ASSIGNER": "cve@mitre.org"
+            },
+            "problemtype": {
+                "problemtype_data": [
+                    {
+                        "description": []
+                    }
+                ]
+            },
+            "references": {
+                "reference_data": [
+                    {
+                        "url": "https://github.com/NavigateCMS/Navigate-CMS",
+                        "name": "https://github.com/NavigateCMS/Navigate-CMS",
+                        "refsource": "MISC",
+                        "tags": []
+                    },
+                    {
+                        "url": "https://github.com/NavigateCMS/Navigate-CMS/issues/26",
+                        "name": "https://github.com/NavigateCMS/Navigate-CMS/issues/26",
+                        "refsource": "MISC",
+                        "tags": []
+                    },
+                    {
+                        "url": "https://gist.github.com/victomteng1997/ed429fed7de46651c89f05e7591fd4fe",
+                        "name": "https://gist.github.com/victomteng1997/ed429fed7de46651c89f05e7591fd4fe",
+                        "refsource": "MISC",
+                        "tags": []
+                    }
+                ]
+            },
+            "description": {
+                "description_data": [
+                    {
+                        "lang": "en",
+                        "value": "In NavigateCMS version 2.9.4 and below, function in `templates.php` is vulnerable to sql injection on parameter `template-properties-order`, which results in arbitrary sql query execution in the backend database."
+                    }
+                ]
+            }
+        },
+        "configurations": {
+            "CVE_data_version": "4.0",
+            "nodes": []
+        },
+        "impact": {},
+        "publishedDate": "2021-07-26T18:15Z",
+        "lastModifiedDate": "2021-07-26T18:50Z"
+    },
+    "CVE-2021-37473": {
+        "cve": {
+            "data_type": "CVE",
+            "data_format": "MITRE",
+            "data_version": "4.0",
+            "CVE_data_meta": {
+                "ID": "CVE-2021-37473",
+                "ASSIGNER": "cve@mitre.org"
+            },
+            "problemtype": {
+                "problemtype_data": [
+                    {
+                        "description": []
+                    }
+                ]
+            },
+            "references": {
+                "reference_data": [
+                    {
+                        "url": "https://github.com/NavigateCMS/Navigate-CMS",
+                        "name": "https://github.com/NavigateCMS/Navigate-CMS",
+                        "refsource": "MISC",
+                        "tags": []
+                    },
+                    {
+                        "url": "https://github.com/NavigateCMS/Navigate-CMS/issues/26",
+                        "name": "https://github.com/NavigateCMS/Navigate-CMS/issues/26",
+                        "refsource": "MISC",
+                        "tags": []
+                    },
+                    {
+                        "url": "https://gist.github.com/victomteng1997/ed429fed7de46651c89f05e7591fd4fe",
+                        "name": "https://gist.github.com/victomteng1997/ed429fed7de46651c89f05e7591fd4fe",
+                        "refsource": "MISC",
+                        "tags": []
+                    }
+                ]
+            },
+            "description": {
+                "description_data": [
+                    {
+                        "lang": "en",
+                        "value": "In NavigateCMS version 2.9.4 and below, function in `product.php` is vulnerable to sql injection on parameter `products-order` through a post request, which results in arbitrary sql query execution in the backend database."
+                    }
+                ]
+            }
+        },
+        "configurations": {
+            "CVE_data_version": "4.0",
+            "nodes": []
+        },
+        "impact": {},
+        "publishedDate": "2021-07-26T18:15Z",
+        "lastModifiedDate": "2021-07-26T18:50Z"
+    },
     "CVE-2021-37393": {
         "cve": {
             "data_type": "CVE",
@@ -500,6 +775,122 @@
         },
         "impact": {},
         "publishedDate": "2021-07-26T17:15Z",
+        "lastModifiedDate": "2021-07-26T17:21Z"
+    },
+    "CVE-2021-32790": {
+        "cve": {
+            "data_type": "CVE",
+            "data_format": "MITRE",
+            "data_version": "4.0",
+            "CVE_data_meta": {
+                "ID": "CVE-2021-32790",
+                "ASSIGNER": "security-advisories@github.com"
+            },
+            "problemtype": {
+                "problemtype_data": [
+                    {
+                        "description": []
+                    }
+                ]
+            },
+            "references": {
+                "reference_data": [
+                    {
+                        "url": "https://github.com/woocommerce/woocommerce/security/advisories/GHSA-7vx5-x39w-q24g",
+                        "name": "https://github.com/woocommerce/woocommerce/security/advisories/GHSA-7vx5-x39w-q24g",
+                        "refsource": "CONFIRM",
+                        "tags": []
+                    },
+                    {
+                        "url": "https://woocommerce.com/posts/critical-vulnerability-detected-july-2021/",
+                        "name": "https://woocommerce.com/posts/critical-vulnerability-detected-july-2021/",
+                        "refsource": "MISC",
+                        "tags": []
+                    }
+                ]
+            },
+            "description": {
+                "description_data": [
+                    {
+                        "lang": "en",
+                        "value": "Woocommerce is an open source eCommerce plugin for WordPress. An SQL injection vulnerability impacts all WooCommerce sites running the WooCommerce plugin between version 3.3.0 and 3.3.6. Malicious actors (already) having admin access, or API keys to the WooCommerce site can exploit vulnerable endpoints of `/wp-json/wc/v3/webhooks`, `/wp-json/wc/v2/webhooks` and other webhook listing API. Read-only SQL queries can be executed using this exploit, while data will not be returned, by carefully crafting `search` parameter information can be disclosed using timing and related attacks. Version 3.3.6 is the earliest version of Woocommerce with a patch for this vulnerability. There are no known workarounds other than upgrading."
+                    }
+                ]
+            }
+        },
+        "configurations": {
+            "CVE_data_version": "4.0",
+            "nodes": []
+        },
+        "impact": {},
+        "publishedDate": "2021-07-26T17:15Z",
+        "lastModifiedDate": "2021-07-26T17:21Z"
+    },
+    "CVE-2021-32789": {
+        "cve": {
+            "data_type": "CVE",
+            "data_format": "MITRE",
+            "data_version": "4.0",
+            "CVE_data_meta": {
+                "ID": "CVE-2021-32789",
+                "ASSIGNER": "security-advisories@github.com"
+            },
+            "problemtype": {
+                "problemtype_data": [
+                    {
+                        "description": []
+                    }
+                ]
+            },
+            "references": {
+                "reference_data": [
+                    {
+                        "url": "https://github.com/woocommerce/woocommerce-gutenberg-products-block/security/advisories/GHSA-6hq4-w6wv-8wrp",
+                        "name": "https://github.com/woocommerce/woocommerce-gutenberg-products-block/security/advisories/GHSA-6hq4-w6wv-8wrp",
+                        "refsource": "CONFIRM",
+                        "tags": []
+                    },
+                    {
+                        "url": "https://wooengineering.wordpress.com/2021/07/14/incident-report-sql-injection-via-store-api/",
+                        "name": "https://wooengineering.wordpress.com/2021/07/14/incident-report-sql-injection-via-store-api/",
+                        "refsource": "MISC",
+                        "tags": []
+                    },
+                    {
+                        "url": "https://woocommerce.com/posts/critical-vulnerability-detected-july-2021/",
+                        "name": "https://woocommerce.com/posts/critical-vulnerability-detected-july-2021/",
+                        "refsource": "MISC",
+                        "tags": []
+                    },
+                    {
+                        "url": "https://github.com/woocommerce/woocommerce-gutenberg-products-block-ghsa-6hq4-w6wv-8wrp/pull/1",
+                        "name": "https://github.com/woocommerce/woocommerce-gutenberg-products-block-ghsa-6hq4-w6wv-8wrp/pull/1",
+                        "refsource": "MISC",
+                        "tags": []
+                    },
+                    {
+                        "url": "https://hackerone.com/reports/1260787",
+                        "name": "https://hackerone.com/reports/1260787",
+                        "refsource": "MISC",
+                        "tags": []
+                    }
+                ]
+            },
+            "description": {
+                "description_data": [
+                    {
+                        "lang": "en",
+                        "value": "woocommerce-gutenberg-products-block is a feature plugin for WooCommerce Gutenberg Blocks. An SQL injection vulnerability impacts all WooCommerce sites running the WooCommerce Blocks feature plugin between version 2.5.0 and prior to version 2.5.16. Via a carefully crafted URL, an exploit can be executed against the `wc/store/products/collection-data?calculate_attribute_counts[][taxonomy]` endpoint that allows the execution of a read only sql query. There are patches for many versions of this package, starting with version 2.5.16. There are no known workarounds aside from upgrading."
+                    }
+                ]
+            }
+        },
+        "configurations": {
+            "CVE_data_version": "4.0",
+            "nodes": []
+        },
+        "impact": {},
+        "publishedDate": "2021-07-26T16:15Z",
         "lastModifiedDate": "2021-07-26T17:21Z"
     },
     "CVE-2021-37534": {
@@ -1807,6 +2198,49 @@
         "publishedDate": "2021-07-23T14:15Z",
         "lastModifiedDate": "2021-07-23T17:45Z"
     },
+    "CVE-2021-25201": {
+        "cve": {
+            "data_type": "CVE",
+            "data_format": "MITRE",
+            "data_version": "4.0",
+            "CVE_data_meta": {
+                "ID": "CVE-2021-25201",
+                "ASSIGNER": "cve@mitre.org"
+            },
+            "problemtype": {
+                "problemtype_data": [
+                    {
+                        "description": []
+                    }
+                ]
+            },
+            "references": {
+                "reference_data": [
+                    {
+                        "url": "https://github.com/TCSWT/Learning-Management-System/blob/main/README.md",
+                        "name": "https://github.com/TCSWT/Learning-Management-System/blob/main/README.md",
+                        "refsource": "MISC",
+                        "tags": []
+                    }
+                ]
+            },
+            "description": {
+                "description_data": [
+                    {
+                        "lang": "en",
+                        "value": "SQL injection vulnerability in Learning Management System v 1.0 allows remote attackers to execute arbitrary SQL statements through the id parameter to obtain sensitive database information."
+                    }
+                ]
+            }
+        },
+        "configurations": {
+            "CVE_data_version": "4.0",
+            "nodes": []
+        },
+        "impact": {},
+        "publishedDate": "2021-07-23T14:15Z",
+        "lastModifiedDate": "2021-07-23T17:45Z"
+    },
     "CVE-2021-26799": {
         "cve": {
             "data_type": "CVE",
@@ -1854,6 +2288,135 @@
         },
         "impact": {},
         "publishedDate": "2021-07-23T11:15Z",
+        "lastModifiedDate": "2021-07-23T17:45Z"
+    },
+    "CVE-2021-25213": {
+        "cve": {
+            "data_type": "CVE",
+            "data_format": "MITRE",
+            "data_version": "4.0",
+            "CVE_data_meta": {
+                "ID": "CVE-2021-25213",
+                "ASSIGNER": "cve@mitre.org"
+            },
+            "problemtype": {
+                "problemtype_data": [
+                    {
+                        "description": []
+                    }
+                ]
+            },
+            "references": {
+                "reference_data": [
+                    {
+                        "url": "https://github.com/BigTiger2020/Travel-Management-System/blob/main/Travel%20Management%20System-sql.md",
+                        "name": "https://github.com/BigTiger2020/Travel-Management-System/blob/main/Travel%20Management%20System-sql.md",
+                        "refsource": "MISC",
+                        "tags": []
+                    }
+                ]
+            },
+            "description": {
+                "description_data": [
+                    {
+                        "lang": "en",
+                        "value": "SQL injection vulnerability in SourceCodester Travel Management System v 1.0 allows remote attackers to execute arbitrary SQL statements, via the catid parameter to subcat.php."
+                    }
+                ]
+            }
+        },
+        "configurations": {
+            "CVE_data_version": "4.0",
+            "nodes": []
+        },
+        "impact": {},
+        "publishedDate": "2021-07-22T20:15Z",
+        "lastModifiedDate": "2021-07-23T17:45Z"
+    },
+    "CVE-2021-25209": {
+        "cve": {
+            "data_type": "CVE",
+            "data_format": "MITRE",
+            "data_version": "4.0",
+            "CVE_data_meta": {
+                "ID": "CVE-2021-25209",
+                "ASSIGNER": "cve@mitre.org"
+            },
+            "problemtype": {
+                "problemtype_data": [
+                    {
+                        "description": []
+                    }
+                ]
+            },
+            "references": {
+                "reference_data": [
+                    {
+                        "url": "https://github.com/BigTiger2020/Theme-Park-Ticketing-System/blob/main/Theme%20Park%20Ticketing%20System.md",
+                        "name": "https://github.com/BigTiger2020/Theme-Park-Ticketing-System/blob/main/Theme%20Park%20Ticketing%20System.md",
+                        "refsource": "MISC",
+                        "tags": []
+                    }
+                ]
+            },
+            "description": {
+                "description_data": [
+                    {
+                        "lang": "en",
+                        "value": "SQL injection vulnerability in SourceCodester Theme Park Ticketing System v 1.0 allows remote attackers to execute arbitrary SQL statements, via the id parameter to view_user.php ."
+                    }
+                ]
+            }
+        },
+        "configurations": {
+            "CVE_data_version": "4.0",
+            "nodes": []
+        },
+        "impact": {},
+        "publishedDate": "2021-07-22T20:15Z",
+        "lastModifiedDate": "2021-07-23T17:45Z"
+    },
+    "CVE-2021-25205": {
+        "cve": {
+            "data_type": "CVE",
+            "data_format": "MITRE",
+            "data_version": "4.0",
+            "CVE_data_meta": {
+                "ID": "CVE-2021-25205",
+                "ASSIGNER": "cve@mitre.org"
+            },
+            "problemtype": {
+                "problemtype_data": [
+                    {
+                        "description": []
+                    }
+                ]
+            },
+            "references": {
+                "reference_data": [
+                    {
+                        "url": "https://github.com/BigTiger2020/E-Commerce-Website/blob/main/E-Commerce%20Website-sql.md",
+                        "name": "https://github.com/BigTiger2020/E-Commerce-Website/blob/main/E-Commerce%20Website-sql.md",
+                        "refsource": "MISC",
+                        "tags": []
+                    }
+                ]
+            },
+            "description": {
+                "description_data": [
+                    {
+                        "lang": "en",
+                        "value": "SQL injection vulnerability in SourceCodester E-Commerce Website V 1.0 allows remote attackers to execute arbitrary SQL statements, via the update parameter to empViewUpdate.php ."
+                    }
+                ]
+            }
+        },
+        "configurations": {
+            "CVE_data_version": "4.0",
+            "nodes": []
+        },
+        "impact": {},
+        "publishedDate": "2021-07-22T20:15Z",
         "lastModifiedDate": "2021-07-23T17:45Z"
     },
     "CVE-2021-3619": {
@@ -1997,6 +2560,92 @@
         "publishedDate": "2021-07-22T19:15Z",
         "lastModifiedDate": "2021-07-23T17:45Z"
     },
+    "CVE-2021-26223": {
+        "cve": {
+            "data_type": "CVE",
+            "data_format": "MITRE",
+            "data_version": "4.0",
+            "CVE_data_meta": {
+                "ID": "CVE-2021-26223",
+                "ASSIGNER": "cve@mitre.org"
+            },
+            "problemtype": {
+                "problemtype_data": [
+                    {
+                        "description": []
+                    }
+                ]
+            },
+            "references": {
+                "reference_data": [
+                    {
+                        "url": "https://github.com/BigTiger2020/CASAP-Automated-Enrollment-System/blob/main/CASAP-Automated-Enrollment-System-3.md",
+                        "name": "https://github.com/BigTiger2020/CASAP-Automated-Enrollment-System/blob/main/CASAP-Automated-Enrollment-System-3.md",
+                        "refsource": "MISC",
+                        "tags": []
+                    }
+                ]
+            },
+            "description": {
+                "description_data": [
+                    {
+                        "lang": "en",
+                        "value": "SQL injection vulnerability in SourceCodester CASAP Automated Enrollment System v 1.0 allows remote attackers to execute arbitrary SQL statements, via the id parameter to view_pay.php."
+                    }
+                ]
+            }
+        },
+        "configurations": {
+            "CVE_data_version": "4.0",
+            "nodes": []
+        },
+        "impact": {},
+        "publishedDate": "2021-07-22T19:15Z",
+        "lastModifiedDate": "2021-07-23T17:45Z"
+    },
+    "CVE-2021-25212": {
+        "cve": {
+            "data_type": "CVE",
+            "data_format": "MITRE",
+            "data_version": "4.0",
+            "CVE_data_meta": {
+                "ID": "CVE-2021-25212",
+                "ASSIGNER": "cve@mitre.org"
+            },
+            "problemtype": {
+                "problemtype_data": [
+                    {
+                        "description": []
+                    }
+                ]
+            },
+            "references": {
+                "reference_data": [
+                    {
+                        "url": "https://github.com/BigTiger2020/Alumni-Management-System/blob/main/Alumni%20Management%20System-sql.md",
+                        "name": "https://github.com/BigTiger2020/Alumni-Management-System/blob/main/Alumni%20Management%20System-sql.md",
+                        "refsource": "MISC",
+                        "tags": []
+                    }
+                ]
+            },
+            "description": {
+                "description_data": [
+                    {
+                        "lang": "en",
+                        "value": "SQL injection vulnerability in SourceCodester Alumni Management System v 1.0 allows remote attackers to execute arbitrary SQL statements, via the id parameter to manage_event.php."
+                    }
+                ]
+            }
+        },
+        "configurations": {
+            "CVE_data_version": "4.0",
+            "nodes": []
+        },
+        "impact": {},
+        "publishedDate": "2021-07-22T19:15Z",
+        "lastModifiedDate": "2021-07-23T17:45Z"
+    },
     "CVE-2020-7390": {
         "cve": {
             "data_type": "CVE",
@@ -2046,6 +2695,92 @@
         "publishedDate": "2021-07-22T19:15Z",
         "lastModifiedDate": "2021-07-23T17:45Z"
     },
+    "CVE-2021-26226": {
+        "cve": {
+            "data_type": "CVE",
+            "data_format": "MITRE",
+            "data_version": "4.0",
+            "CVE_data_meta": {
+                "ID": "CVE-2021-26226",
+                "ASSIGNER": "cve@mitre.org"
+            },
+            "problemtype": {
+                "problemtype_data": [
+                    {
+                        "description": []
+                    }
+                ]
+            },
+            "references": {
+                "reference_data": [
+                    {
+                        "url": "https://github.com/BigTiger2020/CASAP-Automated-Enrollment-System/blob/main/CASAP-Automated-Enrollment-System-2.md",
+                        "name": "https://github.com/BigTiger2020/CASAP-Automated-Enrollment-System/blob/main/CASAP-Automated-Enrollment-System-2.md",
+                        "refsource": "MISC",
+                        "tags": []
+                    }
+                ]
+            },
+            "description": {
+                "description_data": [
+                    {
+                        "lang": "en",
+                        "value": "SQL injection vulnerability in SourceCodester CASAP Automated Enrollment System v 1.0 allows remote attackers to execute arbitrary SQL statements, via the id parameter to edit_user.php."
+                    }
+                ]
+            }
+        },
+        "configurations": {
+            "CVE_data_version": "4.0",
+            "nodes": []
+        },
+        "impact": {},
+        "publishedDate": "2021-07-22T18:15Z",
+        "lastModifiedDate": "2021-07-22T18:43Z"
+    },
+    "CVE-2021-25202": {
+        "cve": {
+            "data_type": "CVE",
+            "data_format": "MITRE",
+            "data_version": "4.0",
+            "CVE_data_meta": {
+                "ID": "CVE-2021-25202",
+                "ASSIGNER": "cve@mitre.org"
+            },
+            "problemtype": {
+                "problemtype_data": [
+                    {
+                        "description": []
+                    }
+                ]
+            },
+            "references": {
+                "reference_data": [
+                    {
+                        "url": "https://github.com/TCSWT/Sales-and-Inventory-System/blob/main/README.md",
+                        "name": "https://github.com/TCSWT/Sales-and-Inventory-System/blob/main/README.md",
+                        "refsource": "MISC",
+                        "tags": []
+                    }
+                ]
+            },
+            "description": {
+                "description_data": [
+                    {
+                        "lang": "en",
+                        "value": "SQL injection vulnerability in SourceCodester Sales and Inventory System v 1.0 allows remote attackers to execute arbitrary SQL statements, via the id parameter to \\ahira\\admin\\inventory.php."
+                    }
+                ]
+            }
+        },
+        "configurations": {
+            "CVE_data_version": "4.0",
+            "nodes": []
+        },
+        "impact": {},
+        "publishedDate": "2021-07-22T18:15Z",
+        "lastModifiedDate": "2021-07-22T18:43Z"
+    },
     "CVE-2021-25197": {
         "cve": {
             "data_type": "CVE",
@@ -2077,6 +2812,49 @@
                     {
                         "lang": "en",
                         "value": "Cross-site scripting (XSS) vulnerability in SourceCodester Content Management System v 1.0 allows remote attackers to inject arbitrary web script or HTML via the search parameter to content_management_system\\admin\\new_content.php"
+                    }
+                ]
+            }
+        },
+        "configurations": {
+            "CVE_data_version": "4.0",
+            "nodes": []
+        },
+        "impact": {},
+        "publishedDate": "2021-07-22T18:15Z",
+        "lastModifiedDate": "2021-07-22T18:43Z"
+    },
+    "CVE-2020-36033": {
+        "cve": {
+            "data_type": "CVE",
+            "data_format": "MITRE",
+            "data_version": "4.0",
+            "CVE_data_meta": {
+                "ID": "CVE-2020-36033",
+                "ASSIGNER": "cve@mitre.org"
+            },
+            "problemtype": {
+                "problemtype_data": [
+                    {
+                        "description": []
+                    }
+                ]
+            },
+            "references": {
+                "reference_data": [
+                    {
+                        "url": "https://github.com/TCSWT/Water-Billing-System",
+                        "name": "https://github.com/TCSWT/Water-Billing-System",
+                        "refsource": "MISC",
+                        "tags": []
+                    }
+                ]
+            },
+            "description": {
+                "description_data": [
+                    {
+                        "lang": "en",
+                        "value": "SQL injection vulnerability in SourceCodester Water Billing System 1.0 via the id parameter to edituser.php."
                     }
                 ]
             }
@@ -2236,6 +3014,92 @@
         "publishedDate": "2021-07-22T17:15Z",
         "lastModifiedDate": "2021-07-25T14:15Z"
     },
+    "CVE-2021-26232": {
+        "cve": {
+            "data_type": "CVE",
+            "data_format": "MITRE",
+            "data_version": "4.0",
+            "CVE_data_meta": {
+                "ID": "CVE-2021-26232",
+                "ASSIGNER": "cve@mitre.org"
+            },
+            "problemtype": {
+                "problemtype_data": [
+                    {
+                        "description": []
+                    }
+                ]
+            },
+            "references": {
+                "reference_data": [
+                    {
+                        "url": "https://github.com/BigTiger2020/Simple-College-Website/blob/main/README.md",
+                        "name": "https://github.com/BigTiger2020/Simple-College-Website/blob/main/README.md",
+                        "refsource": "MISC",
+                        "tags": []
+                    }
+                ]
+            },
+            "description": {
+                "description_data": [
+                    {
+                        "lang": "en",
+                        "value": "SQL injection vulnerability in SourceCodester Simple College Website v 1.0 allows remote attackers to execute arbitrary SQL statements via the id parameter to news.php."
+                    }
+                ]
+            }
+        },
+        "configurations": {
+            "CVE_data_version": "4.0",
+            "nodes": []
+        },
+        "impact": {},
+        "publishedDate": "2021-07-22T17:15Z",
+        "lastModifiedDate": "2021-07-22T17:22Z"
+    },
+    "CVE-2021-26231": {
+        "cve": {
+            "data_type": "CVE",
+            "data_format": "MITRE",
+            "data_version": "4.0",
+            "CVE_data_meta": {
+                "ID": "CVE-2021-26231",
+                "ASSIGNER": "cve@mitre.org"
+            },
+            "problemtype": {
+                "problemtype_data": [
+                    {
+                        "description": []
+                    }
+                ]
+            },
+            "references": {
+                "reference_data": [
+                    {
+                        "url": "https://github.com/BigTiger2020/Fantastic-Blog-CMS-/blob/main/README.md",
+                        "name": "https://github.com/BigTiger2020/Fantastic-Blog-CMS-/blob/main/README.md",
+                        "refsource": "MISC",
+                        "tags": []
+                    }
+                ]
+            },
+            "description": {
+                "description_data": [
+                    {
+                        "lang": "en",
+                        "value": "SQL injection vulnerability in SourceCodester Fantastic Blog CMS v 1.0 allows remote attackers to execute arbitrary SQL statements, via the id parameter to category.php."
+                    }
+                ]
+            }
+        },
+        "configurations": {
+            "CVE_data_version": "4.0",
+            "nodes": []
+        },
+        "impact": {},
+        "publishedDate": "2021-07-22T17:15Z",
+        "lastModifiedDate": "2021-07-22T17:22Z"
+    },
     "CVE-2021-26230": {
         "cve": {
             "data_type": "CVE",
@@ -2267,6 +3131,92 @@
                     {
                         "lang": "en",
                         "value": "Cross-site scripting (XSS) vulnerability in SourceCodester CASAP Automated Enrollment System v 1.0 allows remote attackers to inject arbitrary web script or HTML via the user information to save_user.php."
+                    }
+                ]
+            }
+        },
+        "configurations": {
+            "CVE_data_version": "4.0",
+            "nodes": []
+        },
+        "impact": {},
+        "publishedDate": "2021-07-22T17:15Z",
+        "lastModifiedDate": "2021-07-22T17:22Z"
+    },
+    "CVE-2021-26229": {
+        "cve": {
+            "data_type": "CVE",
+            "data_format": "MITRE",
+            "data_version": "4.0",
+            "CVE_data_meta": {
+                "ID": "CVE-2021-26229",
+                "ASSIGNER": "cve@mitre.org"
+            },
+            "problemtype": {
+                "problemtype_data": [
+                    {
+                        "description": []
+                    }
+                ]
+            },
+            "references": {
+                "reference_data": [
+                    {
+                        "url": "https://github.com/BigTiger2020/CASAP-Automated-Enrollment-System/blob/main/CASAP-Automated-Enrollment-System-1.md",
+                        "name": "https://github.com/BigTiger2020/CASAP-Automated-Enrollment-System/blob/main/CASAP-Automated-Enrollment-System-1.md",
+                        "refsource": "MISC",
+                        "tags": []
+                    }
+                ]
+            },
+            "description": {
+                "description_data": [
+                    {
+                        "lang": "en",
+                        "value": "SQL injection vulnerability in SourceCodester CASAP Automated Enrollment System v 1.0 allows remote attackers to execute arbitrary SQL statements, via the id parameter to edit_stud.php."
+                    }
+                ]
+            }
+        },
+        "configurations": {
+            "CVE_data_version": "4.0",
+            "nodes": []
+        },
+        "impact": {},
+        "publishedDate": "2021-07-22T17:15Z",
+        "lastModifiedDate": "2021-07-22T17:22Z"
+    },
+    "CVE-2021-26228": {
+        "cve": {
+            "data_type": "CVE",
+            "data_format": "MITRE",
+            "data_version": "4.0",
+            "CVE_data_meta": {
+                "ID": "CVE-2021-26228",
+                "ASSIGNER": "cve@mitre.org"
+            },
+            "problemtype": {
+                "problemtype_data": [
+                    {
+                        "description": []
+                    }
+                ]
+            },
+            "references": {
+                "reference_data": [
+                    {
+                        "url": "https://github.com/BigTiger2020/CASAP-Automated-Enrollment-System/blob/main/README.md",
+                        "name": "https://github.com/BigTiger2020/CASAP-Automated-Enrollment-System/blob/main/README.md",
+                        "refsource": "MISC",
+                        "tags": []
+                    }
+                ]
+            },
+            "description": {
+                "description_data": [
+                    {
+                        "lang": "en",
+                        "value": "SQL injection vulnerability in SourceCodester CASAP Automated Enrollment System v 1.0 allows remote attackers to execute arbitrary SQL statements, via the id parameter to edit_class1.php."
                     }
                 ]
             }
@@ -2321,6 +3271,183 @@
         "impact": {},
         "publishedDate": "2021-07-22T17:15Z",
         "lastModifiedDate": "2021-07-22T17:22Z"
+    },
+    "CVE-2021-26765": {
+        "cve": {
+            "data_type": "CVE",
+            "data_format": "MITRE",
+            "data_version": "4.0",
+            "CVE_data_meta": {
+                "ID": "CVE-2021-26765",
+                "ASSIGNER": "cve@mitre.org"
+            },
+            "problemtype": {
+                "problemtype_data": [
+                    {
+                        "description": []
+                    }
+                ]
+            },
+            "references": {
+                "reference_data": [
+                    {
+                        "url": "https://packetstormsecurity.com/files/161237/Student-Record-System-4.0-SQL-Injection.html",
+                        "name": "https://packetstormsecurity.com/files/161237/Student-Record-System-4.0-SQL-Injection.html",
+                        "refsource": "MISC",
+                        "tags": []
+                    },
+                    {
+                        "url": "https://phpgurukul.com/",
+                        "name": "https://phpgurukul.com/",
+                        "refsource": "MISC",
+                        "tags": []
+                    },
+                    {
+                        "url": "https://github.com/BigTiger2020/Student-Record-System-/blob/main/README.md",
+                        "name": "https://github.com/BigTiger2020/Student-Record-System-/blob/main/README.md",
+                        "refsource": "MISC",
+                        "tags": []
+                    },
+                    {
+                        "url": "https://phpgurukul.com/wp-content/uploads/2019/05/schoolmanagement.zip",
+                        "name": "https://phpgurukul.com/wp-content/uploads/2019/05/schoolmanagement.zip",
+                        "refsource": "MISC",
+                        "tags": []
+                    }
+                ]
+            },
+            "description": {
+                "description_data": [
+                    {
+                        "lang": "en",
+                        "value": "SQL injection vulnerability in PHPGurukul Student Record System 4.0 allows remote attackers to execute arbitrary SQL statements, via the sid parameter to edit-sub.php."
+                    }
+                ]
+            }
+        },
+        "configurations": {
+            "CVE_data_version": "4.0",
+            "nodes": []
+        },
+        "impact": {},
+        "publishedDate": "2021-07-22T16:15Z",
+        "lastModifiedDate": "2021-07-22T16:29Z"
+    },
+    "CVE-2021-26764": {
+        "cve": {
+            "data_type": "CVE",
+            "data_format": "MITRE",
+            "data_version": "4.0",
+            "CVE_data_meta": {
+                "ID": "CVE-2021-26764",
+                "ASSIGNER": "cve@mitre.org"
+            },
+            "problemtype": {
+                "problemtype_data": [
+                    {
+                        "description": []
+                    }
+                ]
+            },
+            "references": {
+                "reference_data": [
+                    {
+                        "url": "https://packetstormsecurity.com/files/161237/Student-Record-System-4.0-SQL-Injection.html",
+                        "name": "https://packetstormsecurity.com/files/161237/Student-Record-System-4.0-SQL-Injection.html",
+                        "refsource": "MISC",
+                        "tags": []
+                    },
+                    {
+                        "url": "https://phpgurukul.com/",
+                        "name": "https://phpgurukul.com/",
+                        "refsource": "MISC",
+                        "tags": []
+                    },
+                    {
+                        "url": "https://github.com/BigTiger2020/Student-Record-System-/blob/main/README.md",
+                        "name": "https://github.com/BigTiger2020/Student-Record-System-/blob/main/README.md",
+                        "refsource": "MISC",
+                        "tags": []
+                    },
+                    {
+                        "url": "https://phpgurukul.com/wp-content/uploads/2019/05/schoolmanagement.zip",
+                        "name": "https://phpgurukul.com/wp-content/uploads/2019/05/schoolmanagement.zip",
+                        "refsource": "MISC",
+                        "tags": []
+                    }
+                ]
+            },
+            "description": {
+                "description_data": [
+                    {
+                        "lang": "en",
+                        "value": "SQL injection vulnerability in PHPGurukul Student Record System v 4.0 allows remote attackers to execute arbitrary SQL statements, via the id parameter to edit-std.php."
+                    }
+                ]
+            }
+        },
+        "configurations": {
+            "CVE_data_version": "4.0",
+            "nodes": []
+        },
+        "impact": {},
+        "publishedDate": "2021-07-22T16:15Z",
+        "lastModifiedDate": "2021-07-22T16:29Z"
+    },
+    "CVE-2021-26762": {
+        "cve": {
+            "data_type": "CVE",
+            "data_format": "MITRE",
+            "data_version": "4.0",
+            "CVE_data_meta": {
+                "ID": "CVE-2021-26762",
+                "ASSIGNER": "cve@mitre.org"
+            },
+            "problemtype": {
+                "problemtype_data": [
+                    {
+                        "description": []
+                    }
+                ]
+            },
+            "references": {
+                "reference_data": [
+                    {
+                        "url": "https://www.exploit-db.com/exploits/49513",
+                        "name": "https://www.exploit-db.com/exploits/49513",
+                        "refsource": "MISC",
+                        "tags": []
+                    },
+                    {
+                        "url": "https://phpgurukul.com/",
+                        "name": "https://phpgurukul.com/",
+                        "refsource": "MISC",
+                        "tags": []
+                    },
+                    {
+                        "url": "https://phpgurukul.com/wp-content/uploads/2019/05/schoolmanagement.zip",
+                        "name": "https://phpgurukul.com/wp-content/uploads/2019/05/schoolmanagement.zip",
+                        "refsource": "MISC",
+                        "tags": []
+                    }
+                ]
+            },
+            "description": {
+                "description_data": [
+                    {
+                        "lang": "en",
+                        "value": "SQL injection vulnerability in PHPGurukul Student Record System 4.0 allows remote attackers to execute arbitrary SQL statements, via the cid parameter to edit-course.php."
+                    }
+                ]
+            }
+        },
+        "configurations": {
+            "CVE_data_version": "4.0",
+            "nodes": []
+        },
+        "impact": {},
+        "publishedDate": "2021-07-22T16:15Z",
+        "lastModifiedDate": "2021-07-22T16:29Z"
     },
     "CVE-2021-1599": {
         "cve": {
@@ -2407,6 +3534,49 @@
         "impact": {},
         "publishedDate": "2021-07-22T14:15Z",
         "lastModifiedDate": "2021-07-22T14:24Z"
+    },
+    "CVE-2021-30486": {
+        "cve": {
+            "data_type": "CVE",
+            "data_format": "MITRE",
+            "data_version": "4.0",
+            "CVE_data_meta": {
+                "ID": "CVE-2021-30486",
+                "ASSIGNER": "cve@mitre.org"
+            },
+            "problemtype": {
+                "problemtype_data": [
+                    {
+                        "description": []
+                    }
+                ]
+            },
+            "references": {
+                "reference_data": [
+                    {
+                        "url": "https://eh337.net/2021/04/10/sysaid-ii/",
+                        "name": "https://eh337.net/2021/04/10/sysaid-ii/",
+                        "refsource": "MISC",
+                        "tags": []
+                    }
+                ]
+            },
+            "description": {
+                "description_data": [
+                    {
+                        "lang": "en",
+                        "value": "SysAid 20.3.64 b14 is affected by Blind and Stacker SQL injection via AssetManagementChart.jsp (GET computerID), AssetManagementChart.jsp (POST group1), AssetManagementList.jsp (GET computerID or group1), or AssetManagementSummary.jsp (GET group1)."
+                    }
+                ]
+            }
+        },
+        "configurations": {
+            "CVE_data_version": "4.0",
+            "nodes": []
+        },
+        "impact": {},
+        "publishedDate": "2021-07-22T12:15Z",
+        "lastModifiedDate": "2021-07-22T12:20Z"
     },
     "CVE-2021-30049": {
         "cve": {
@@ -2623,6 +3793,55 @@
                     {
                         "lang": "en",
                         "value": "All versions of package anchorme are vulnerable to Cross-site Scripting (XSS) via the main functionality."
+                    }
+                ]
+            }
+        },
+        "configurations": {
+            "CVE_data_version": "4.0",
+            "nodes": []
+        },
+        "impact": {},
+        "publishedDate": "2021-07-21T15:15Z",
+        "lastModifiedDate": "2021-07-21T15:21Z"
+    },
+    "CVE-2020-23282": {
+        "cve": {
+            "data_type": "CVE",
+            "data_format": "MITRE",
+            "data_version": "4.0",
+            "CVE_data_meta": {
+                "ID": "CVE-2020-23282",
+                "ASSIGNER": "cve@mitre.org"
+            },
+            "problemtype": {
+                "problemtype_data": [
+                    {
+                        "description": []
+                    }
+                ]
+            },
+            "references": {
+                "reference_data": [
+                    {
+                        "url": "https://github.com/ifmacedo/mconnect/blob/main/SQLinjection",
+                        "name": "https://github.com/ifmacedo/mconnect/blob/main/SQLinjection",
+                        "refsource": "MISC",
+                        "tags": []
+                    },
+                    {
+                        "url": "https://www.linkedin.com/pulse/mconnect-mv-sql-injection-parcial-iran/",
+                        "name": "https://www.linkedin.com/pulse/mconnect-mv-sql-injection-parcial-iran/",
+                        "refsource": "MISC",
+                        "tags": []
+                    }
+                ]
+            },
+            "description": {
+                "description_data": [
+                    {
+                        "lang": "en",
+                        "value": "SQL injection in Logon Page in MV's mConnect application, v02.001.00, allows an attacker to use a non existing user with a generic password to connect to the application and get access to unauthorized information."
                     }
                 ]
             }
@@ -3039,6 +4258,55 @@
         "publishedDate": "2021-07-20T15:15Z",
         "lastModifiedDate": "2021-07-20T20:09Z"
     },
+    "CVE-2020-35427": {
+        "cve": {
+            "data_type": "CVE",
+            "data_format": "MITRE",
+            "data_version": "4.0",
+            "CVE_data_meta": {
+                "ID": "CVE-2020-35427",
+                "ASSIGNER": "cve@mitre.org"
+            },
+            "problemtype": {
+                "problemtype_data": [
+                    {
+                        "description": []
+                    }
+                ]
+            },
+            "references": {
+                "reference_data": [
+                    {
+                        "url": "https://phpgurukul.com/",
+                        "name": "https://phpgurukul.com/",
+                        "refsource": "MISC",
+                        "tags": []
+                    },
+                    {
+                        "url": "https://www.exploit-db.com/exploits/49165",
+                        "name": "https://www.exploit-db.com/exploits/49165",
+                        "refsource": "MISC",
+                        "tags": []
+                    }
+                ]
+            },
+            "description": {
+                "description_data": [
+                    {
+                        "lang": "en",
+                        "value": "SQL injection vulnerability in PHPGurukul Employee Record Management System 1.1 allows remote attackers to execute arbitrary SQL commands and bypass authentication."
+                    }
+                ]
+            }
+        },
+        "configurations": {
+            "CVE_data_version": "4.0",
+            "nodes": []
+        },
+        "impact": {},
+        "publishedDate": "2021-07-20T14:15Z",
+        "lastModifiedDate": "2021-07-20T20:09Z"
+    },
     "CVE-2021-27517": {
         "cve": {
             "data_type": "CVE",
@@ -3215,6 +4483,49 @@
         },
         "impact": {},
         "publishedDate": "2021-07-20T04:15Z",
+        "lastModifiedDate": "2021-07-20T13:46Z"
+    },
+    "CVE-2020-5320": {
+        "cve": {
+            "data_type": "CVE",
+            "data_format": "MITRE",
+            "data_version": "4.0",
+            "CVE_data_meta": {
+                "ID": "CVE-2020-5320",
+                "ASSIGNER": "secure@dell.com"
+            },
+            "problemtype": {
+                "problemtype_data": [
+                    {
+                        "description": []
+                    }
+                ]
+            },
+            "references": {
+                "reference_data": [
+                    {
+                        "url": "https://www.dell.com/support/kbdoc/en-us/000176929/dsa-2020-023-dell-emc-openmanage-enterprise-enterprise-modular-multiple-vulnerabilities",
+                        "name": "https://www.dell.com/support/kbdoc/en-us/000176929/dsa-2020-023-dell-emc-openmanage-enterprise-enterprise-modular-multiple-vulnerabilities",
+                        "refsource": "MISC",
+                        "tags": []
+                    }
+                ]
+            },
+            "description": {
+                "description_data": [
+                    {
+                        "lang": "en",
+                        "value": "Dell EMC OpenManage Enterprise (OME) versions prior to 3.2 and OpenManage Enterprise-Modular (OME-M) versions prior to 1.10.00 contain a SQL injection vulnerability. A remote authenticated malicious user with high privileges could potentially exploit this vulnerability to execute SQL commands to perform unauthorized actions."
+                    }
+                ]
+            }
+        },
+        "configurations": {
+            "CVE_data_version": "4.0",
+            "nodes": []
+        },
+        "impact": {},
+        "publishedDate": "2021-07-19T22:15Z",
         "lastModifiedDate": "2021-07-20T13:46Z"
     },
     "CVE-2021-3135": {
@@ -5226,6 +6537,129 @@
         "publishedDate": "2021-03-10T08:15Z",
         "lastModifiedDate": "2021-07-24T05:15Z"
     },
+    "CVE-2021-3239": {
+        "cve": {
+            "data_type": "CVE",
+            "data_format": "MITRE",
+            "data_version": "4.0",
+            "CVE_data_meta": {
+                "ID": "CVE-2021-3239",
+                "ASSIGNER": "cve@mitre.org"
+            },
+            "problemtype": {
+                "problemtype_data": [
+                    {
+                        "description": [
+                            {
+                                "lang": "en",
+                                "value": "CWE-89"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "references": {
+                "reference_data": [
+                    {
+                        "url": "https://www.exploit-db.com/exploits/49434",
+                        "name": "https://www.exploit-db.com/exploits/49434",
+                        "refsource": "MISC",
+                        "tags": [
+                            "Exploit",
+                            "Third Party Advisory",
+                            "VDB Entry"
+                        ]
+                    },
+                    {
+                        "url": "https://www.sourcecodester.com/php/12808/e-learning-system-using-phpmysqli.html",
+                        "name": "https://www.sourcecodester.com/php/12808/e-learning-system-using-phpmysqli.html",
+                        "refsource": "MISC",
+                        "tags": [
+                            "Product",
+                            "Third Party Advisory"
+                        ]
+                    },
+                    {
+                        "url": "https://packetstormsecurity.com/files/160966/E-Learning-System-1.0-SQL-Injection-Shell-Upload.html",
+                        "name": "https://packetstormsecurity.com/files/160966/E-Learning-System-1.0-SQL-Injection-Shell-Upload.html",
+                        "refsource": "MISC",
+                        "tags": [
+                            "Exploit",
+                            "Third Party Advisory",
+                            "VDB Entry"
+                        ]
+                    }
+                ]
+            },
+            "description": {
+                "description_data": [
+                    {
+                        "lang": "en",
+                        "value": "E-Learning System 1.0 suffers from an unauthenticated SQL injection vulnerability, which allows remote attackers to execute arbitrary code on the hosting web server and gain a reverse shell."
+                    }
+                ]
+            }
+        },
+        "configurations": {
+            "CVE_data_version": "4.0",
+            "nodes": [
+                {
+                    "operator": "OR",
+                    "children": [],
+                    "cpe_match": [
+                        {
+                            "vulnerable": true,
+                            "cpe23Uri": "cpe:2.3:a:e-learning_system_project:e-learning_system:1.0:*:*:*:*:*:*:*",
+                            "cpe_name": []
+                        }
+                    ]
+                }
+            ]
+        },
+        "impact": {
+            "baseMetricV3": {
+                "cvssV3": {
+                    "version": "3.1",
+                    "vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+                    "attackVector": "NETWORK",
+                    "attackComplexity": "LOW",
+                    "privilegesRequired": "NONE",
+                    "userInteraction": "NONE",
+                    "scope": "UNCHANGED",
+                    "confidentialityImpact": "HIGH",
+                    "integrityImpact": "HIGH",
+                    "availabilityImpact": "HIGH",
+                    "baseScore": 9.8,
+                    "baseSeverity": "CRITICAL"
+                },
+                "exploitabilityScore": 3.9,
+                "impactScore": 5.9
+            },
+            "baseMetricV2": {
+                "cvssV2": {
+                    "version": "2.0",
+                    "vectorString": "AV:N/AC:L/Au:N/C:P/I:P/A:P",
+                    "accessVector": "NETWORK",
+                    "accessComplexity": "LOW",
+                    "authentication": "NONE",
+                    "confidentialityImpact": "PARTIAL",
+                    "integrityImpact": "PARTIAL",
+                    "availabilityImpact": "PARTIAL",
+                    "baseScore": 7.5
+                },
+                "severity": "HIGH",
+                "exploitabilityScore": 10.0,
+                "impactScore": 6.4,
+                "acInsufInfo": false,
+                "obtainAllPrivilege": false,
+                "obtainUserPrivilege": false,
+                "obtainOtherPrivilege": false,
+                "userInteractionRequired": false
+            }
+        },
+        "publishedDate": "2021-02-15T21:15Z",
+        "lastModifiedDate": "2021-07-22T15:15Z"
+    },
     "CVE-2020-35942": {
         "cve": {
             "data_type": "CVE",
@@ -6748,6 +8182,162 @@
         "publishedDate": "2020-12-03T17:15Z",
         "lastModifiedDate": "2021-07-20T23:15Z"
     },
+    "CVE-2020-25638": {
+        "cve": {
+            "data_type": "CVE",
+            "data_format": "MITRE",
+            "data_version": "4.0",
+            "CVE_data_meta": {
+                "ID": "CVE-2020-25638",
+                "ASSIGNER": "secalert@redhat.com"
+            },
+            "problemtype": {
+                "problemtype_data": [
+                    {
+                        "description": [
+                            {
+                                "lang": "en",
+                                "value": "CWE-89"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "references": {
+                "reference_data": [
+                    {
+                        "url": "https://bugzilla.redhat.com/show_bug.cgi?id=1881353",
+                        "name": "https://bugzilla.redhat.com/show_bug.cgi?id=1881353",
+                        "refsource": "MISC",
+                        "tags": [
+                            "Issue Tracking",
+                            "Third Party Advisory"
+                        ]
+                    },
+                    {
+                        "url": "https://lists.debian.org/debian-lts-announce/2021/01/msg00000.html",
+                        "name": "[debian-lts-announce] 20210103 [SECURITY] [DLA 2512-1] libhibernate3-java security update",
+                        "refsource": "MLIST",
+                        "tags": [
+                            "Mailing List",
+                            "Third Party Advisory"
+                        ]
+                    },
+                    {
+                        "url": "https://www.debian.org/security/2021/dsa-4908",
+                        "name": "DSA-4908",
+                        "refsource": "DEBIAN",
+                        "tags": [
+                            "Third Party Advisory"
+                        ]
+                    }
+                ]
+            },
+            "description": {
+                "description_data": [
+                    {
+                        "lang": "en",
+                        "value": "A flaw was found in hibernate-core in versions prior to and including 5.4.23.Final. A SQL injection in the implementation of the JPA Criteria API can permit unsanitized literals when a literal is used in the SQL comments of the query. This flaw could allow an attacker to access unauthorized information or possibly conduct further attacks. The highest threat from this vulnerability is to data confidentiality and integrity."
+                    }
+                ]
+            }
+        },
+        "configurations": {
+            "CVE_data_version": "4.0",
+            "nodes": [
+                {
+                    "operator": "OR",
+                    "children": [],
+                    "cpe_match": [
+                        {
+                            "vulnerable": true,
+                            "cpe23Uri": "cpe:2.3:a:hibernate:hibernate_orm:*:*:*:*:*:*:*:*",
+                            "versionEndExcluding": "5.3.20",
+                            "cpe_name": []
+                        },
+                        {
+                            "vulnerable": true,
+                            "cpe23Uri": "cpe:2.3:a:hibernate:hibernate_orm:*:*:*:*:*:*:*:*",
+                            "versionStartIncluding": "5.4.0",
+                            "versionEndExcluding": "5.4.24",
+                            "cpe_name": []
+                        }
+                    ]
+                },
+                {
+                    "operator": "OR",
+                    "children": [],
+                    "cpe_match": [
+                        {
+                            "vulnerable": true,
+                            "cpe23Uri": "cpe:2.3:o:debian:debian_linux:9.0:*:*:*:*:*:*:*",
+                            "cpe_name": []
+                        },
+                        {
+                            "vulnerable": true,
+                            "cpe23Uri": "cpe:2.3:o:debian:debian_linux:10.0:*:*:*:*:*:*:*",
+                            "cpe_name": []
+                        }
+                    ]
+                },
+                {
+                    "operator": "OR",
+                    "children": [],
+                    "cpe_match": [
+                        {
+                            "vulnerable": true,
+                            "cpe23Uri": "cpe:2.3:a:quarkus:quarkus:*:*:*:*:*:*:*:*",
+                            "versionEndIncluding": "1.9.2",
+                            "cpe_name": []
+                        }
+                    ]
+                }
+            ]
+        },
+        "impact": {
+            "baseMetricV3": {
+                "cvssV3": {
+                    "version": "3.1",
+                    "vectorString": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:N",
+                    "attackVector": "NETWORK",
+                    "attackComplexity": "HIGH",
+                    "privilegesRequired": "NONE",
+                    "userInteraction": "NONE",
+                    "scope": "UNCHANGED",
+                    "confidentialityImpact": "HIGH",
+                    "integrityImpact": "HIGH",
+                    "availabilityImpact": "NONE",
+                    "baseScore": 7.4,
+                    "baseSeverity": "HIGH"
+                },
+                "exploitabilityScore": 2.2,
+                "impactScore": 5.2
+            },
+            "baseMetricV2": {
+                "cvssV2": {
+                    "version": "2.0",
+                    "vectorString": "AV:N/AC:M/Au:N/C:P/I:P/A:N",
+                    "accessVector": "NETWORK",
+                    "accessComplexity": "MEDIUM",
+                    "authentication": "NONE",
+                    "confidentialityImpact": "PARTIAL",
+                    "integrityImpact": "PARTIAL",
+                    "availabilityImpact": "NONE",
+                    "baseScore": 5.8
+                },
+                "severity": "MEDIUM",
+                "exploitabilityScore": 8.6,
+                "impactScore": 4.9,
+                "acInsufInfo": false,
+                "obtainAllPrivilege": false,
+                "obtainUserPrivilege": false,
+                "obtainOtherPrivilege": false,
+                "userInteractionRequired": false
+            }
+        },
+        "publishedDate": "2020-12-02T15:15Z",
+        "lastModifiedDate": "2021-07-20T23:15Z"
+    },
     "CVE-2020-27193": {
         "cve": {
             "data_type": "CVE",
@@ -7097,6 +8687,117 @@
             }
         },
         "publishedDate": "2020-10-20T11:15Z",
+        "lastModifiedDate": "2021-07-21T11:39Z"
+    },
+    "CVE-2020-25273": {
+        "cve": {
+            "data_type": "CVE",
+            "data_format": "MITRE",
+            "data_version": "4.0",
+            "CVE_data_meta": {
+                "ID": "CVE-2020-25273",
+                "ASSIGNER": "cve@mitre.org"
+            },
+            "problemtype": {
+                "problemtype_data": [
+                    {
+                        "description": [
+                            {
+                                "lang": "en",
+                                "value": "CWE-287"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "references": {
+                "reference_data": [
+                    {
+                        "url": "https://github.com/Ko-kn3t/CVE-2020-25273",
+                        "name": "https://github.com/Ko-kn3t/CVE-2020-25273",
+                        "refsource": "MISC",
+                        "tags": [
+                            "Exploit",
+                            "Third Party Advisory"
+                        ]
+                    },
+                    {
+                        "url": "https://www.sourcecodester.com",
+                        "name": "https://www.sourcecodester.com",
+                        "refsource": "MISC",
+                        "tags": [
+                            "Third Party Advisory"
+                        ]
+                    }
+                ]
+            },
+            "description": {
+                "description_data": [
+                    {
+                        "lang": "en",
+                        "value": "In SourceCodester Online Bus Booking System 1.0, there is Authentication bypass on the Admin Login screen in admin.php via username or password SQL injection."
+                    }
+                ]
+            }
+        },
+        "configurations": {
+            "CVE_data_version": "4.0",
+            "nodes": [
+                {
+                    "operator": "OR",
+                    "children": [],
+                    "cpe_match": [
+                        {
+                            "vulnerable": true,
+                            "cpe23Uri": "cpe:2.3:a:online_bus_booking_system_project:online_bus_booking_system:1.0:*:*:*:*:*:*:*",
+                            "cpe_name": []
+                        }
+                    ]
+                }
+            ]
+        },
+        "impact": {
+            "baseMetricV3": {
+                "cvssV3": {
+                    "version": "3.1",
+                    "vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+                    "attackVector": "NETWORK",
+                    "attackComplexity": "LOW",
+                    "privilegesRequired": "NONE",
+                    "userInteraction": "NONE",
+                    "scope": "UNCHANGED",
+                    "confidentialityImpact": "HIGH",
+                    "integrityImpact": "HIGH",
+                    "availabilityImpact": "HIGH",
+                    "baseScore": 9.8,
+                    "baseSeverity": "CRITICAL"
+                },
+                "exploitabilityScore": 3.9,
+                "impactScore": 5.9
+            },
+            "baseMetricV2": {
+                "cvssV2": {
+                    "version": "2.0",
+                    "vectorString": "AV:N/AC:L/Au:N/C:P/I:P/A:P",
+                    "accessVector": "NETWORK",
+                    "accessComplexity": "LOW",
+                    "authentication": "NONE",
+                    "confidentialityImpact": "PARTIAL",
+                    "integrityImpact": "PARTIAL",
+                    "availabilityImpact": "PARTIAL",
+                    "baseScore": 7.5
+                },
+                "severity": "HIGH",
+                "exploitabilityScore": 10.0,
+                "impactScore": 6.4,
+                "acInsufInfo": false,
+                "obtainAllPrivilege": false,
+                "obtainUserPrivilege": false,
+                "obtainOtherPrivilege": false,
+                "userInteractionRequired": false
+            }
+        },
+        "publishedDate": "2020-10-08T13:15Z",
         "lastModifiedDate": "2021-07-21T11:39Z"
     },
     "CVE-2020-26870": {
@@ -8159,6 +9860,116 @@
         "publishedDate": "2020-06-30T12:15Z",
         "lastModifiedDate": "2021-07-21T11:39Z"
     },
+    "CVE-2020-14068": {
+        "cve": {
+            "data_type": "CVE",
+            "data_format": "MITRE",
+            "data_version": "4.0",
+            "CVE_data_meta": {
+                "ID": "CVE-2020-14068",
+                "ASSIGNER": "cve@mitre.org"
+            },
+            "problemtype": {
+                "problemtype_data": [
+                    {
+                        "description": [
+                            {
+                                "lang": "en",
+                                "value": "CWE-287"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "references": {
+                "reference_data": [
+                    {
+                        "url": "https://gist.github.com/merhawi023/a1155913df3cf0c17971b0fb7dcd8f20",
+                        "name": "https://gist.github.com/merhawi023/a1155913df3cf0c17971b0fb7dcd8f20",
+                        "refsource": "MISC",
+                        "tags": [
+                            "Third Party Advisory"
+                        ]
+                    },
+                    {
+                        "url": "http://mk-auth.com.br/page/changelog-1",
+                        "name": "http://mk-auth.com.br/page/changelog-1",
+                        "refsource": "MISC",
+                        "tags": [
+                            "Vendor Advisory"
+                        ]
+                    }
+                ]
+            },
+            "description": {
+                "description_data": [
+                    {
+                        "lang": "en",
+                        "value": "An issue was discovered in MK-AUTH 19.01. The web login functionality allows an attacker to bypass authentication and gain client privileges via SQL injection in central/executar_login.php."
+                    }
+                ]
+            }
+        },
+        "configurations": {
+            "CVE_data_version": "4.0",
+            "nodes": [
+                {
+                    "operator": "OR",
+                    "children": [],
+                    "cpe_match": [
+                        {
+                            "vulnerable": true,
+                            "cpe23Uri": "cpe:2.3:a:mk-auth:mk-auth:19.01:*:*:*:*:*:*:*",
+                            "cpe_name": []
+                        }
+                    ]
+                }
+            ]
+        },
+        "impact": {
+            "baseMetricV3": {
+                "cvssV3": {
+                    "version": "3.1",
+                    "vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+                    "attackVector": "NETWORK",
+                    "attackComplexity": "LOW",
+                    "privilegesRequired": "NONE",
+                    "userInteraction": "NONE",
+                    "scope": "UNCHANGED",
+                    "confidentialityImpact": "HIGH",
+                    "integrityImpact": "HIGH",
+                    "availabilityImpact": "HIGH",
+                    "baseScore": 9.8,
+                    "baseSeverity": "CRITICAL"
+                },
+                "exploitabilityScore": 3.9,
+                "impactScore": 5.9
+            },
+            "baseMetricV2": {
+                "cvssV2": {
+                    "version": "2.0",
+                    "vectorString": "AV:N/AC:L/Au:N/C:P/I:P/A:P",
+                    "accessVector": "NETWORK",
+                    "accessComplexity": "LOW",
+                    "authentication": "NONE",
+                    "confidentialityImpact": "PARTIAL",
+                    "integrityImpact": "PARTIAL",
+                    "availabilityImpact": "PARTIAL",
+                    "baseScore": 7.5
+                },
+                "severity": "HIGH",
+                "exploitabilityScore": 10.0,
+                "impactScore": 6.4,
+                "acInsufInfo": false,
+                "obtainAllPrivilege": false,
+                "obtainUserPrivilege": false,
+                "obtainOtherPrivilege": false,
+                "userInteractionRequired": false
+            }
+        },
+        "publishedDate": "2020-06-29T17:15Z",
+        "lastModifiedDate": "2021-07-21T11:39Z"
+    },
     "CVE-2019-16385": {
         "cve": {
             "data_type": "CVE",
@@ -8261,6 +10072,446 @@
             }
         },
         "publishedDate": "2020-06-04T16:15Z",
+        "lastModifiedDate": "2021-07-21T11:39Z"
+    },
+    "CVE-2020-10549": {
+        "cve": {
+            "data_type": "CVE",
+            "data_format": "MITRE",
+            "data_version": "4.0",
+            "CVE_data_meta": {
+                "ID": "CVE-2020-10549",
+                "ASSIGNER": "cve@mitre.org"
+            },
+            "problemtype": {
+                "problemtype_data": [
+                    {
+                        "description": [
+                            {
+                                "lang": "en",
+                                "value": "CWE-89"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "references": {
+                "reference_data": [
+                    {
+                        "url": "https://github.com/theguly/exploits/blob/master/CVE-2020-10549.py",
+                        "name": "https://github.com/theguly/exploits/blob/master/CVE-2020-10549.py",
+                        "refsource": "MISC",
+                        "tags": [
+                            "Exploit",
+                            "Third Party Advisory"
+                        ]
+                    },
+                    {
+                        "url": "https://theguly.github.io/2020/09/rconfig-3.9.4-multiple-vulnerabilities/",
+                        "name": "https://theguly.github.io/2020/09/rconfig-3.9.4-multiple-vulnerabilities/",
+                        "refsource": "MISC",
+                        "tags": []
+                    }
+                ]
+            },
+            "description": {
+                "description_data": [
+                    {
+                        "lang": "en",
+                        "value": "rConfig 3.9.4 and previous versions has unauthenticated snippets.inc.php SQL injection. Because, by default, nodes' passwords are stored in cleartext, this vulnerability leads to lateral movement, granting an attacker access to monitored network devices."
+                    }
+                ]
+            }
+        },
+        "configurations": {
+            "CVE_data_version": "4.0",
+            "nodes": [
+                {
+                    "operator": "OR",
+                    "children": [],
+                    "cpe_match": [
+                        {
+                            "vulnerable": true,
+                            "cpe23Uri": "cpe:2.3:a:rconfig:rconfig:*:*:*:*:*:*:*:*",
+                            "versionEndIncluding": "3.9.4",
+                            "cpe_name": []
+                        }
+                    ]
+                }
+            ]
+        },
+        "impact": {
+            "baseMetricV3": {
+                "cvssV3": {
+                    "version": "3.1",
+                    "vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+                    "attackVector": "NETWORK",
+                    "attackComplexity": "LOW",
+                    "privilegesRequired": "NONE",
+                    "userInteraction": "NONE",
+                    "scope": "UNCHANGED",
+                    "confidentialityImpact": "HIGH",
+                    "integrityImpact": "HIGH",
+                    "availabilityImpact": "HIGH",
+                    "baseScore": 9.8,
+                    "baseSeverity": "CRITICAL"
+                },
+                "exploitabilityScore": 3.9,
+                "impactScore": 5.9
+            },
+            "baseMetricV2": {
+                "cvssV2": {
+                    "version": "2.0",
+                    "vectorString": "AV:N/AC:L/Au:N/C:P/I:P/A:P",
+                    "accessVector": "NETWORK",
+                    "accessComplexity": "LOW",
+                    "authentication": "NONE",
+                    "confidentialityImpact": "PARTIAL",
+                    "integrityImpact": "PARTIAL",
+                    "availabilityImpact": "PARTIAL",
+                    "baseScore": 7.5
+                },
+                "severity": "HIGH",
+                "exploitabilityScore": 10.0,
+                "impactScore": 6.4,
+                "acInsufInfo": false,
+                "obtainAllPrivilege": false,
+                "obtainUserPrivilege": false,
+                "obtainOtherPrivilege": false,
+                "userInteractionRequired": false
+            }
+        },
+        "publishedDate": "2020-06-04T04:15Z",
+        "lastModifiedDate": "2021-07-21T11:39Z"
+    },
+    "CVE-2020-10548": {
+        "cve": {
+            "data_type": "CVE",
+            "data_format": "MITRE",
+            "data_version": "4.0",
+            "CVE_data_meta": {
+                "ID": "CVE-2020-10548",
+                "ASSIGNER": "cve@mitre.org"
+            },
+            "problemtype": {
+                "problemtype_data": [
+                    {
+                        "description": [
+                            {
+                                "lang": "en",
+                                "value": "CWE-89"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "references": {
+                "reference_data": [
+                    {
+                        "url": "https://github.com/theguly/exploits/blob/master/CVE-2020-10548.py",
+                        "name": "https://github.com/theguly/exploits/blob/master/CVE-2020-10548.py",
+                        "refsource": "MISC",
+                        "tags": [
+                            "Exploit",
+                            "Third Party Advisory"
+                        ]
+                    },
+                    {
+                        "url": "https://theguly.github.io/2020/09/rconfig-3.9.4-multiple-vulnerabilities/",
+                        "name": "https://theguly.github.io/2020/09/rconfig-3.9.4-multiple-vulnerabilities/",
+                        "refsource": "MISC",
+                        "tags": []
+                    }
+                ]
+            },
+            "description": {
+                "description_data": [
+                    {
+                        "lang": "en",
+                        "value": "rConfig 3.9.4 and previous versions has unauthenticated devices.inc.php SQL injection. Because, by default, nodes' passwords are stored in cleartext, this vulnerability leads to lateral movement, granting an attacker access to monitored network devices."
+                    }
+                ]
+            }
+        },
+        "configurations": {
+            "CVE_data_version": "4.0",
+            "nodes": [
+                {
+                    "operator": "OR",
+                    "children": [],
+                    "cpe_match": [
+                        {
+                            "vulnerable": true,
+                            "cpe23Uri": "cpe:2.3:a:rconfig:rconfig:*:*:*:*:*:*:*:*",
+                            "versionEndIncluding": "3.9.4",
+                            "cpe_name": []
+                        }
+                    ]
+                }
+            ]
+        },
+        "impact": {
+            "baseMetricV3": {
+                "cvssV3": {
+                    "version": "3.1",
+                    "vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+                    "attackVector": "NETWORK",
+                    "attackComplexity": "LOW",
+                    "privilegesRequired": "NONE",
+                    "userInteraction": "NONE",
+                    "scope": "UNCHANGED",
+                    "confidentialityImpact": "HIGH",
+                    "integrityImpact": "HIGH",
+                    "availabilityImpact": "HIGH",
+                    "baseScore": 9.8,
+                    "baseSeverity": "CRITICAL"
+                },
+                "exploitabilityScore": 3.9,
+                "impactScore": 5.9
+            },
+            "baseMetricV2": {
+                "cvssV2": {
+                    "version": "2.0",
+                    "vectorString": "AV:N/AC:L/Au:N/C:P/I:P/A:P",
+                    "accessVector": "NETWORK",
+                    "accessComplexity": "LOW",
+                    "authentication": "NONE",
+                    "confidentialityImpact": "PARTIAL",
+                    "integrityImpact": "PARTIAL",
+                    "availabilityImpact": "PARTIAL",
+                    "baseScore": 7.5
+                },
+                "severity": "HIGH",
+                "exploitabilityScore": 10.0,
+                "impactScore": 6.4,
+                "acInsufInfo": false,
+                "obtainAllPrivilege": false,
+                "obtainUserPrivilege": false,
+                "obtainOtherPrivilege": false,
+                "userInteractionRequired": false
+            }
+        },
+        "publishedDate": "2020-06-04T04:15Z",
+        "lastModifiedDate": "2021-07-21T11:39Z"
+    },
+    "CVE-2020-10547": {
+        "cve": {
+            "data_type": "CVE",
+            "data_format": "MITRE",
+            "data_version": "4.0",
+            "CVE_data_meta": {
+                "ID": "CVE-2020-10547",
+                "ASSIGNER": "cve@mitre.org"
+            },
+            "problemtype": {
+                "problemtype_data": [
+                    {
+                        "description": [
+                            {
+                                "lang": "en",
+                                "value": "CWE-89"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "references": {
+                "reference_data": [
+                    {
+                        "url": "https://github.com/theguly/exploits/blob/master/CVE-2020-10547.py",
+                        "name": "https://github.com/theguly/exploits/blob/master/CVE-2020-10547.py",
+                        "refsource": "MISC",
+                        "tags": [
+                            "Exploit",
+                            "Third Party Advisory"
+                        ]
+                    },
+                    {
+                        "url": "https://theguly.github.io/2020/09/rconfig-3.9.4-multiple-vulnerabilities/",
+                        "name": "https://theguly.github.io/2020/09/rconfig-3.9.4-multiple-vulnerabilities/",
+                        "refsource": "MISC",
+                        "tags": []
+                    }
+                ]
+            },
+            "description": {
+                "description_data": [
+                    {
+                        "lang": "en",
+                        "value": "rConfig 3.9.4 and previous versions has unauthenticated compliancepolicyelements.inc.php SQL injection. Because, by default, nodes' passwords are stored in cleartext, this vulnerability leads to lateral movement, granting an attacker access to monitored network devices."
+                    }
+                ]
+            }
+        },
+        "configurations": {
+            "CVE_data_version": "4.0",
+            "nodes": [
+                {
+                    "operator": "OR",
+                    "children": [],
+                    "cpe_match": [
+                        {
+                            "vulnerable": true,
+                            "cpe23Uri": "cpe:2.3:a:rconfig:rconfig:*:*:*:*:*:*:*:*",
+                            "versionEndIncluding": "3.9.4",
+                            "cpe_name": []
+                        }
+                    ]
+                }
+            ]
+        },
+        "impact": {
+            "baseMetricV3": {
+                "cvssV3": {
+                    "version": "3.1",
+                    "vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+                    "attackVector": "NETWORK",
+                    "attackComplexity": "LOW",
+                    "privilegesRequired": "NONE",
+                    "userInteraction": "NONE",
+                    "scope": "UNCHANGED",
+                    "confidentialityImpact": "HIGH",
+                    "integrityImpact": "HIGH",
+                    "availabilityImpact": "HIGH",
+                    "baseScore": 9.8,
+                    "baseSeverity": "CRITICAL"
+                },
+                "exploitabilityScore": 3.9,
+                "impactScore": 5.9
+            },
+            "baseMetricV2": {
+                "cvssV2": {
+                    "version": "2.0",
+                    "vectorString": "AV:N/AC:L/Au:N/C:P/I:P/A:P",
+                    "accessVector": "NETWORK",
+                    "accessComplexity": "LOW",
+                    "authentication": "NONE",
+                    "confidentialityImpact": "PARTIAL",
+                    "integrityImpact": "PARTIAL",
+                    "availabilityImpact": "PARTIAL",
+                    "baseScore": 7.5
+                },
+                "severity": "HIGH",
+                "exploitabilityScore": 10.0,
+                "impactScore": 6.4,
+                "acInsufInfo": false,
+                "obtainAllPrivilege": false,
+                "obtainUserPrivilege": false,
+                "obtainOtherPrivilege": false,
+                "userInteractionRequired": false
+            }
+        },
+        "publishedDate": "2020-06-04T04:15Z",
+        "lastModifiedDate": "2021-07-21T11:39Z"
+    },
+    "CVE-2020-10546": {
+        "cve": {
+            "data_type": "CVE",
+            "data_format": "MITRE",
+            "data_version": "4.0",
+            "CVE_data_meta": {
+                "ID": "CVE-2020-10546",
+                "ASSIGNER": "cve@mitre.org"
+            },
+            "problemtype": {
+                "problemtype_data": [
+                    {
+                        "description": [
+                            {
+                                "lang": "en",
+                                "value": "CWE-89"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "references": {
+                "reference_data": [
+                    {
+                        "url": "https://github.com/theguly/exploits/blob/master/CVE-2020-10546.py",
+                        "name": "https://github.com/theguly/exploits/blob/master/CVE-2020-10546.py",
+                        "refsource": "MISC",
+                        "tags": [
+                            "Exploit",
+                            "Third Party Advisory"
+                        ]
+                    },
+                    {
+                        "url": "https://theguly.github.io/2020/09/rconfig-3.9.4-multiple-vulnerabilities/",
+                        "name": "https://theguly.github.io/2020/09/rconfig-3.9.4-multiple-vulnerabilities/",
+                        "refsource": "MISC",
+                        "tags": []
+                    }
+                ]
+            },
+            "description": {
+                "description_data": [
+                    {
+                        "lang": "en",
+                        "value": "rConfig 3.9.4 and previous versions has unauthenticated compliancepolicies.inc.php SQL injection. Because, by default, nodes' passwords are stored in cleartext, this vulnerability leads to lateral movement, granting an attacker access to monitored network devices."
+                    }
+                ]
+            }
+        },
+        "configurations": {
+            "CVE_data_version": "4.0",
+            "nodes": [
+                {
+                    "operator": "OR",
+                    "children": [],
+                    "cpe_match": [
+                        {
+                            "vulnerable": true,
+                            "cpe23Uri": "cpe:2.3:a:rconfig:rconfig:*:*:*:*:*:*:*:*",
+                            "versionEndIncluding": "3.9.4",
+                            "cpe_name": []
+                        }
+                    ]
+                }
+            ]
+        },
+        "impact": {
+            "baseMetricV3": {
+                "cvssV3": {
+                    "version": "3.1",
+                    "vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+                    "attackVector": "NETWORK",
+                    "attackComplexity": "LOW",
+                    "privilegesRequired": "NONE",
+                    "userInteraction": "NONE",
+                    "scope": "UNCHANGED",
+                    "confidentialityImpact": "HIGH",
+                    "integrityImpact": "HIGH",
+                    "availabilityImpact": "HIGH",
+                    "baseScore": 9.8,
+                    "baseSeverity": "CRITICAL"
+                },
+                "exploitabilityScore": 3.9,
+                "impactScore": 5.9
+            },
+            "baseMetricV2": {
+                "cvssV2": {
+                    "version": "2.0",
+                    "vectorString": "AV:N/AC:L/Au:N/C:P/I:P/A:P",
+                    "accessVector": "NETWORK",
+                    "accessComplexity": "LOW",
+                    "authentication": "NONE",
+                    "confidentialityImpact": "PARTIAL",
+                    "integrityImpact": "PARTIAL",
+                    "availabilityImpact": "PARTIAL",
+                    "baseScore": 7.5
+                },
+                "severity": "HIGH",
+                "exploitabilityScore": 10.0,
+                "impactScore": 6.4,
+                "acInsufInfo": false,
+                "obtainAllPrivilege": false,
+                "obtainUserPrivilege": false,
+                "obtainOtherPrivilege": false,
+                "userInteractionRequired": false
+            }
+        },
+        "publishedDate": "2020-06-04T04:15Z",
         "lastModifiedDate": "2021-07-21T11:39Z"
     },
     "CVE-2020-13240": {
@@ -8912,6 +11163,237 @@
             }
         },
         "publishedDate": "2020-04-03T15:15Z",
+        "lastModifiedDate": "2021-07-21T11:39Z"
+    },
+    "CVE-2020-9006": {
+        "cve": {
+            "data_type": "CVE",
+            "data_format": "MITRE",
+            "data_version": "4.0",
+            "CVE_data_meta": {
+                "ID": "CVE-2020-9006",
+                "ASSIGNER": "cve@mitre.org"
+            },
+            "problemtype": {
+                "problemtype_data": [
+                    {
+                        "description": [
+                            {
+                                "lang": "en",
+                                "value": "CWE-89"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "references": {
+                "reference_data": [
+                    {
+                        "url": "https://zeroauth.ltd/blog/2020/02/16/cve-2020-9006-popup-builder-wp-plugin-sql-injection-via-php-deserialization/",
+                        "name": "https://zeroauth.ltd/blog/2020/02/16/cve-2020-9006-popup-builder-wp-plugin-sql-injection-via-php-deserialization/",
+                        "refsource": "MISC",
+                        "tags": [
+                            "Exploit",
+                            "Third Party Advisory"
+                        ]
+                    },
+                    {
+                        "url": "https://wordpress.org/plugins/popup-builder/#developers",
+                        "name": "https://wordpress.org/plugins/popup-builder/#developers",
+                        "refsource": "MISC",
+                        "tags": [
+                            "Release Notes"
+                        ]
+                    },
+                    {
+                        "url": "https://plugins.trac.wordpress.org/browser/popup-builder/tags/2.2.8/files/sg_popup_ajax.php#L69",
+                        "name": "https://plugins.trac.wordpress.org/browser/popup-builder/tags/2.2.8/files/sg_popup_ajax.php#L69",
+                        "refsource": "MISC",
+                        "tags": [
+                            "Exploit",
+                            "Third Party Advisory"
+                        ]
+                    },
+                    {
+                        "url": "https://wpvulndb.com/vulnerabilities/10073",
+                        "name": "https://wpvulndb.com/vulnerabilities/10073",
+                        "refsource": "MISC",
+                        "tags": [
+                            "Third Party Advisory"
+                        ]
+                    }
+                ]
+            },
+            "description": {
+                "description_data": [
+                    {
+                        "lang": "en",
+                        "value": "The Popup Builder plugin 2.2.8 through 2.6.7.6 for WordPress is vulnerable to SQL injection (in the sgImportPopups function in sg_popup_ajax.php) via PHP Deserialization on attacker-controlled data with the attachmentUrl POST variable. This allows creation of an arbitrary WordPress Administrator account, leading to possible Remote Code Execution because Administrators can run PHP code on Wordpress instances. (This issue has been fixed in the 3.x branch of popup-builder.)"
+                    }
+                ]
+            }
+        },
+        "configurations": {
+            "CVE_data_version": "4.0",
+            "nodes": [
+                {
+                    "operator": "OR",
+                    "children": [],
+                    "cpe_match": [
+                        {
+                            "vulnerable": true,
+                            "cpe23Uri": "cpe:2.3:a:sygnoos:popup_builder:*:*:*:*:*:wordpress:*:*",
+                            "versionStartIncluding": "2.2.8",
+                            "versionEndIncluding": "2.6.7.6",
+                            "cpe_name": []
+                        }
+                    ]
+                }
+            ]
+        },
+        "impact": {
+            "baseMetricV3": {
+                "cvssV3": {
+                    "version": "3.1",
+                    "vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+                    "attackVector": "NETWORK",
+                    "attackComplexity": "LOW",
+                    "privilegesRequired": "NONE",
+                    "userInteraction": "NONE",
+                    "scope": "UNCHANGED",
+                    "confidentialityImpact": "HIGH",
+                    "integrityImpact": "HIGH",
+                    "availabilityImpact": "HIGH",
+                    "baseScore": 9.8,
+                    "baseSeverity": "CRITICAL"
+                },
+                "exploitabilityScore": 3.9,
+                "impactScore": 5.9
+            },
+            "baseMetricV2": {
+                "cvssV2": {
+                    "version": "2.0",
+                    "vectorString": "AV:N/AC:L/Au:N/C:P/I:P/A:P",
+                    "accessVector": "NETWORK",
+                    "accessComplexity": "LOW",
+                    "authentication": "NONE",
+                    "confidentialityImpact": "PARTIAL",
+                    "integrityImpact": "PARTIAL",
+                    "availabilityImpact": "PARTIAL",
+                    "baseScore": 7.5
+                },
+                "severity": "HIGH",
+                "exploitabilityScore": 10.0,
+                "impactScore": 6.4,
+                "acInsufInfo": false,
+                "obtainAllPrivilege": false,
+                "obtainUserPrivilege": false,
+                "obtainOtherPrivilege": false,
+                "userInteractionRequired": false
+            }
+        },
+        "publishedDate": "2020-02-17T15:15Z",
+        "lastModifiedDate": "2021-07-21T11:39Z"
+    },
+    "CVE-2020-8427": {
+        "cve": {
+            "data_type": "CVE",
+            "data_format": "MITRE",
+            "data_version": "4.0",
+            "CVE_data_meta": {
+                "ID": "CVE-2020-8427",
+                "ASSIGNER": "cve@mitre.org"
+            },
+            "problemtype": {
+                "problemtype_data": [
+                    {
+                        "description": [
+                            {
+                                "lang": "en",
+                                "value": "CWE-78"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "references": {
+                "reference_data": [
+                    {
+                        "url": "https://support.unitrends.com/UnitrendsBackup/s/article/000006983",
+                        "name": "https://support.unitrends.com/UnitrendsBackup/s/article/000006983",
+                        "refsource": "MISC",
+                        "tags": []
+                    }
+                ]
+            },
+            "description": {
+                "description_data": [
+                    {
+                        "lang": "en",
+                        "value": "In Unitrends Backup before 10.4.1, an HTTP request parameter was not properly sanitized, allowing for SQL injection that resulted in an authentication bypass."
+                    }
+                ]
+            }
+        },
+        "configurations": {
+            "CVE_data_version": "4.0",
+            "nodes": [
+                {
+                    "operator": "OR",
+                    "children": [],
+                    "cpe_match": [
+                        {
+                            "vulnerable": true,
+                            "cpe23Uri": "cpe:2.3:a:kaseya:traverse:*:*:*:*:*:*:*:*",
+                            "versionEndExcluding": "9.5.20",
+                            "cpe_name": []
+                        }
+                    ]
+                }
+            ]
+        },
+        "impact": {
+            "baseMetricV3": {
+                "cvssV3": {
+                    "version": "3.1",
+                    "vectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+                    "attackVector": "NETWORK",
+                    "attackComplexity": "LOW",
+                    "privilegesRequired": "LOW",
+                    "userInteraction": "NONE",
+                    "scope": "UNCHANGED",
+                    "confidentialityImpact": "HIGH",
+                    "integrityImpact": "HIGH",
+                    "availabilityImpact": "HIGH",
+                    "baseScore": 8.8,
+                    "baseSeverity": "HIGH"
+                },
+                "exploitabilityScore": 2.8,
+                "impactScore": 5.9
+            },
+            "baseMetricV2": {
+                "cvssV2": {
+                    "version": "2.0",
+                    "vectorString": "AV:N/AC:L/Au:S/C:C/I:C/A:C",
+                    "accessVector": "NETWORK",
+                    "accessComplexity": "LOW",
+                    "authentication": "SINGLE",
+                    "confidentialityImpact": "COMPLETE",
+                    "integrityImpact": "COMPLETE",
+                    "availabilityImpact": "COMPLETE",
+                    "baseScore": 9.0
+                },
+                "severity": "HIGH",
+                "exploitabilityScore": 8.0,
+                "impactScore": 10.0,
+                "acInsufInfo": false,
+                "obtainAllPrivilege": false,
+                "obtainUserPrivilege": false,
+                "obtainOtherPrivilege": false,
+                "userInteractionRequired": false
+            }
+        },
+        "publishedDate": "2020-02-17T15:15Z",
         "lastModifiedDate": "2021-07-21T11:39Z"
     },
     "CVE-2019-19857": {
