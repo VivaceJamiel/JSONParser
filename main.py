@@ -52,6 +52,7 @@ foundCVE = {}
 fullCVE = {}
 CVEList = []
 
+# Goes through each cve in zip file and saves them into files if they have substring
 for i in cves:
     CVE_id = cves[ind]['cve']['CVE_data_meta']['ID']
     description = cves[ind]['cve']['description']['description_data'][0]['value']
@@ -63,26 +64,22 @@ for i in cves:
         fullCVE[CVE_id] = i
         CVEList.append(temp)
         count = count + 1
-        print('\n')
     ind = ind + 1
 
 print("There are " + str(count) + " description(s) with xss in them")
 
-with open('foundCVEs', 'w') as convert_file:
+# Writes to file with 
+with open('foundCVEDescriptions', 'w', encoding="utf-8") as convert_file:
     convert_file.write(json.dumps(foundCVE, indent=4))
 
-with open('foundCVEFull', 'w') as convert_file:
+with open('foundCVEFull', 'w', encoding="utf-8") as convert_file:
     convert_file.write(json.dumps(fullCVE, indent=4))
 
-# Prints the JSON list
-# searching = input("Enter data parameter you want to search for\n")
-# if searching in cves:
-#     print(cves[searching])
-# else:
-#     print("Parameter is not present")
+with open('CVEList', 'w', encoding="utf-8") as convert_file:
+    for element in CVEList:
+        convert_file.write(element.CVEID + "\n" + element.description + "\n" + json.dumps(element.impact) + "\n")
+convert_file.close()
 
-# Close file
-
-showList(CVEList)
+# showList(CVEList)
 
 f.close
